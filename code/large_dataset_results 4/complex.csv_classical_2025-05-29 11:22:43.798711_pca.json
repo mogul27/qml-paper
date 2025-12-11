@@ -1,0 +1,55 @@
+{
+    "results": {
+        "X_rbf_2d": [
+            0.8014285714285714,
+            0.76
+        ],
+        "X_rbf_3d": [
+            0.8771428571428571,
+            0.8433333333333334
+        ],
+        "X_rbf_4d": [
+            0.92,
+            0.8866666666666667
+        ],
+        "X_rbf_5d": [
+            0.9185714285714286,
+            0.89
+        ]
+    },
+    "params": {
+        "filename": "complex.csv",
+        "dim_method": "pca",
+        "classical_kernel": "rbf",
+        "minmax_val_list": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "n_dimensions": [
+            2,
+            5
+        ],
+        "tsne_arguments": {
+            "n_iter": 500,
+            "perplexity": 30,
+            "learning_rate": "auto"
+        },
+        "visualise_tsne_umap": false,
+        "umap_arguments": {
+            "n_neighbors": 3,
+            "min_dist": 0.1,
+            "metric": "euclidean"
+        },
+        "post_pca_scale": true,
+        "scalers": [
+            "standard",
+            "minmax"
+        ]
+    }
+}

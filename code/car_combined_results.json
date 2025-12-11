@@ -1,0 +1,2980 @@
+[
+  {
+    "results": {
+      "['ZZ']_kernel_2d": [
+        0.7448979591836735,
+        0.5238095238095238
+      ],
+      "['ZZ']_kernel_3d": [
+        0.7244897959183674,
+        0.5952380952380952
+      ],
+      "['ZZ']_kernel_4d": [
+        0.7857142857142857,
+        0.5476190476190477
+      ],
+      "['ZZ']_kernel_5d": [
+        0.9489795918367347,
+        0.5
+      ],
+      "['ZZ']_kernel_6d": [
+        0.9387755102040817,
+        0.6190476190476191
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 35,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "X_rbf_2d": [
+        0.8061224489795918,
+        0.7142857142857143
+      ],
+      "X_rbf_3d": [
+        0.7959183673469388,
+        0.7857142857142857
+      ],
+      "X_rbf_4d": [
+        0.7448979591836735,
+        0.7142857142857143
+      ],
+      "X_rbf_5d": [
+        0.7653061224489796,
+        0.6428571428571429
+      ],
+      "X_rbf_6d": [
+        0.826530612244898,
+        0.7380952380952381
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "classical_kernel": "rbf",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ]
+    }
+  },
+  {
+    "results": {
+      "['Y', 'YY']_kernel_2d": [
+        0.6326530612244898,
+        0.47619047619047616
+      ],
+      "['Y', 'YY']_kernel_3d": [
+        0.6224489795918368,
+        0.5
+      ],
+      "['Y', 'YY']_kernel_4d": [
+        0.7346938775510204,
+        0.5
+      ],
+      "['Y', 'YY']_kernel_5d": [
+        0.8775510204081632,
+        0.42857142857142855
+      ],
+      "['Y', 'YY']_kernel_6d": [
+        0.9285714285714286,
+        0.5
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "pca",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Y",
+        "YY"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Y', 'YY']_kernel_2d": [
+        0.6530612244897959,
+        0.6428571428571429
+      ],
+      "['Y', 'YY']_kernel_3d": [
+        0.7244897959183674,
+        0.5952380952380952
+      ],
+      "['Y', 'YY']_kernel_4d": [
+        0.826530612244898,
+        0.5714285714285714
+      ],
+      "['Y', 'YY']_kernel_5d": [
+        0.8673469387755102,
+        0.7142857142857143
+      ],
+      "['Y', 'YY']_kernel_6d": [
+        0.9183673469387755,
+        0.7619047619047619
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Y",
+        "YY"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z']_kernel_2d": [
+        0.6530612244897959,
+        0.5714285714285714
+      ],
+      "['Z']_kernel_3d": [
+        0.8163265306122449,
+        0.7857142857142857
+      ],
+      "['Z']_kernel_4d": [
+        0.9387755102040817,
+        0.8809523809523809
+      ],
+      "['Z']_kernel_5d": [
+        0.9693877551020408,
+        0.9047619047619048
+      ],
+      "['Z']_kernel_6d": [
+        0.9897959183673469,
+        0.9285714285714286
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "pca",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z', 'ZZ']_kernel_2d": [
+        0.6530612244897959,
+        0.4523809523809524
+      ],
+      "['Z', 'ZZ']_kernel_3d": [
+        0.8571428571428571,
+        0.6190476190476191
+      ],
+      "['Z', 'ZZ']_kernel_4d": [
+        0.8775510204081632,
+        0.7142857142857143
+      ],
+      "['Z', 'ZZ']_kernel_5d": [
+        0.9795918367346939,
+        0.8571428571428571
+      ],
+      "['Z', 'ZZ']_kernel_6d": [
+        0.9795918367346939,
+        0.8095238095238095
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "pca",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z",
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z', 'ZZ']_kernel_2d": [
+        0.8163265306122449,
+        0.6428571428571429
+      ],
+      "['Z', 'ZZ']_kernel_3d": [
+        0.9081632653061225,
+        0.6666666666666666
+      ],
+      "['Z', 'ZZ']_kernel_4d": [
+        0.9183673469387755,
+        0.5714285714285714
+      ],
+      "['Z', 'ZZ']_kernel_5d": [
+        0.9489795918367347,
+        0.6428571428571429
+      ],
+      "['Z', 'ZZ']_kernel_6d": [
+        0.9285714285714286,
+        0.6904761904761905
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z",
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Y', 'YY']_kernel_2d": [
+        0.5612244897959183,
+        0.5714285714285714
+      ],
+      "['Y', 'YY']_kernel_3d": [
+        0.6428571428571429,
+        0.5714285714285714
+      ],
+      "['Y', 'YY']_kernel_4d": [
+        0.6428571428571429,
+        0.5714285714285714
+      ],
+      "['Y', 'YY']_kernel_5d": [
+        0.8367346938775511,
+        0.35714285714285715
+      ],
+      "['Y', 'YY']_kernel_6d": [
+        0.9183673469387755,
+        0.40476190476190477
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 25,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Y",
+        "YY"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z']_kernel_2d": [
+        0.8163265306122449,
+        0.6190476190476191
+      ],
+      "['Z']_kernel_3d": [
+        0.8673469387755102,
+        0.7619047619047619
+      ],
+      "['Z']_kernel_4d": [
+        0.8673469387755102,
+        0.7857142857142857
+      ],
+      "['Z']_kernel_5d": [
+        0.9183673469387755,
+        0.7142857142857143
+      ],
+      "['Z']_kernel_6d": [
+        0.9387755102040817,
+        0.8333333333333334
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 35,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Y', 'YY']_kernel_2d": [
+        0.5408163265306123,
+        0.5
+      ],
+      "['Y', 'YY']_kernel_3d": [
+        0.6938775510204082,
+        0.5476190476190477
+      ],
+      "['Y', 'YY']_kernel_4d": [
+        0.7857142857142857,
+        0.6190476190476191
+      ],
+      "['Y', 'YY']_kernel_5d": [
+        0.9183673469387755,
+        0.5238095238095238
+      ],
+      "['Y', 'YY']_kernel_6d": [
+        0.9081632653061225,
+        0.42857142857142855
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Y",
+        "YY"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z']_kernel_2d": [
+        0.8469387755102041,
+        0.5476190476190477
+      ],
+      "['Z']_kernel_3d": [
+        0.8775510204081632,
+        0.7857142857142857
+      ],
+      "['Z']_kernel_4d": [
+        0.8979591836734694,
+        0.6666666666666666
+      ],
+      "['Z']_kernel_5d": [
+        0.8877551020408163,
+        0.7857142857142857
+      ],
+      "['Z']_kernel_6d": [
+        0.9183673469387755,
+        0.7619047619047619
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 45,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z', 'ZZ']_kernel_2d": [
+        0.8367346938775511,
+        0.5714285714285714
+      ],
+      "['Z', 'ZZ']_kernel_3d": [
+        0.8571428571428571,
+        0.5952380952380952
+      ],
+      "['Z', 'ZZ']_kernel_4d": [
+        0.9081632653061225,
+        0.5238095238095238
+      ],
+      "['Z', 'ZZ']_kernel_5d": [
+        0.9693877551020408,
+        0.5714285714285714
+      ],
+      "['Z', 'ZZ']_kernel_6d": [
+        0.9387755102040817,
+        0.4523809523809524
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 35,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z",
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['ZZ']_kernel_2d": [
+        0.6020408163265306,
+        0.35714285714285715
+      ],
+      "['ZZ']_kernel_3d": [
+        0.7653061224489796,
+        0.42857142857142855
+      ],
+      "['ZZ']_kernel_4d": [
+        0.7857142857142857,
+        0.5
+      ],
+      "['ZZ']_kernel_5d": [
+        0.9387755102040817,
+        0.6904761904761905
+      ],
+      "['ZZ']_kernel_6d": [
+        0.9795918367346939,
+        0.6666666666666666
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "pca",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['ZZ']_kernel_2d": [
+        0.7653061224489796,
+        0.6190476190476191
+      ],
+      "['ZZ']_kernel_3d": [
+        0.7959183673469388,
+        0.6428571428571429
+      ],
+      "['ZZ']_kernel_4d": [
+        0.9081632653061225,
+        0.7857142857142857
+      ],
+      "['ZZ']_kernel_5d": [
+        0.8979591836734694,
+        0.7857142857142857
+      ],
+      "['ZZ']_kernel_6d": [
+        0.8469387755102041,
+        0.7619047619047619
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 5,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['ZZ']_kernel_2d": [
+        0.7244897959183674,
+        0.5
+      ],
+      "['ZZ']_kernel_3d": [
+        0.6938775510204082,
+        0.42857142857142855
+      ],
+      "['ZZ']_kernel_4d": [
+        0.7857142857142857,
+        0.5714285714285714
+      ],
+      "['ZZ']_kernel_5d": [
+        0.9489795918367347,
+        0.7142857142857143
+      ],
+      "['ZZ']_kernel_6d": [
+        0.9693877551020408,
+        0.5476190476190477
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 25,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['ZZ']_kernel_2d": [
+        0.7142857142857143,
+        0.5952380952380952
+      ],
+      "['ZZ']_kernel_3d": [
+        0.8367346938775511,
+        0.6666666666666666
+      ],
+      "['ZZ']_kernel_4d": [
+        0.826530612244898,
+        0.5714285714285714
+      ],
+      "['ZZ']_kernel_5d": [
+        0.8877551020408163,
+        0.5714285714285714
+      ],
+      "['ZZ']_kernel_6d": [
+        0.9081632653061225,
+        0.7380952380952381
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z', 'ZZ']_kernel_2d": [
+        0.8775510204081632,
+        0.7142857142857143
+      ],
+      "['Z', 'ZZ']_kernel_3d": [
+        0.7857142857142857,
+        0.7619047619047619
+      ],
+      "['Z', 'ZZ']_kernel_4d": [
+        0.9285714285714286,
+        0.8333333333333334
+      ],
+      "['Z', 'ZZ']_kernel_5d": [
+        0.9387755102040817,
+        0.7142857142857143
+      ],
+      "['Z', 'ZZ']_kernel_6d": [
+        0.8775510204081632,
+        0.7380952380952381
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 5,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z",
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "X_rbf_2d": [
+        0.8979591836734694,
+        0.7619047619047619
+      ],
+      "X_rbf_3d": [
+        0.8061224489795918,
+        0.7142857142857143
+      ],
+      "X_rbf_4d": [
+        0.8775510204081632,
+        0.7619047619047619
+      ],
+      "X_rbf_5d": [
+        0.9081632653061225,
+        0.7857142857142857
+      ],
+      "X_rbf_6d": [
+        0.8877551020408163,
+        0.7857142857142857
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "classical_kernel": "rbf",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 5,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ]
+    }
+  },
+  {
+    "results": {
+      "['ZZ']_kernel_2d": [
+        0.6428571428571429,
+        0.5714285714285714
+      ],
+      "['ZZ']_kernel_3d": [
+        0.826530612244898,
+        0.7142857142857143
+      ],
+      "['ZZ']_kernel_4d": [
+        0.7551020408163265,
+        0.7142857142857143
+      ],
+      "['ZZ']_kernel_5d": [
+        0.8673469387755102,
+        0.7380952380952381
+      ],
+      "['ZZ']_kernel_6d": [
+        0.8979591836734694,
+        0.7857142857142857
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z']_kernel_2d": [
+        0.7142857142857143,
+        0.5952380952380952
+      ],
+      "['Z']_kernel_3d": [
+        0.8673469387755102,
+        0.8333333333333334
+      ],
+      "['Z']_kernel_4d": [
+        0.8877551020408163,
+        0.7380952380952381
+      ],
+      "['Z']_kernel_5d": [
+        0.9081632653061225,
+        0.7857142857142857
+      ],
+      "['Z']_kernel_6d": [
+        0.8775510204081632,
+        0.7619047619047619
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z']_kernel_2d": [
+        0.8979591836734694,
+        0.7619047619047619
+      ],
+      "['Z']_kernel_3d": [
+        0.7653061224489796,
+        0.7619047619047619
+      ],
+      "['Z']_kernel_4d": [
+        0.8877551020408163,
+        0.7619047619047619
+      ],
+      "['Z']_kernel_5d": [
+        0.9183673469387755,
+        0.7619047619047619
+      ],
+      "['Z']_kernel_6d": [
+        0.8775510204081632,
+        0.7857142857142857
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 5,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z', 'ZZ']_kernel_2d": [
+        0.8061224489795918,
+        0.5714285714285714
+      ],
+      "['Z', 'ZZ']_kernel_3d": [
+        0.8775510204081632,
+        0.5714285714285714
+      ],
+      "['Z', 'ZZ']_kernel_4d": [
+        0.9183673469387755,
+        0.5238095238095238
+      ],
+      "['Z', 'ZZ']_kernel_5d": [
+        0.9591836734693877,
+        0.4523809523809524
+      ],
+      "['Z', 'ZZ']_kernel_6d": [
+        0.9795918367346939,
+        0.6190476190476191
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 45,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z",
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "X_rbf_2d": [
+        0.9081632653061225,
+        0.6428571428571429
+      ],
+      "X_rbf_3d": [
+        0.9183673469387755,
+        0.8571428571428571
+      ],
+      "X_rbf_4d": [
+        0.9285714285714286,
+        0.7619047619047619
+      ],
+      "X_rbf_5d": [
+        0.9285714285714286,
+        0.7619047619047619
+      ],
+      "X_rbf_6d": [
+        0.9285714285714286,
+        0.7142857142857143
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "classical_kernel": "rbf",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 25,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ]
+    }
+  },
+  {
+    "results": {
+      "['Z']_kernel_2d": [
+        0.7448979591836735,
+        0.6904761904761905
+      ],
+      "['Z']_kernel_3d": [
+        0.7346938775510204,
+        0.5476190476190477
+      ],
+      "['Z']_kernel_4d": [
+        0.7142857142857143,
+        0.6666666666666666
+      ],
+      "['Z']_kernel_5d": [
+        0.7551020408163265,
+        0.6428571428571429
+      ],
+      "['Z']_kernel_6d": [
+        0.826530612244898,
+        0.7380952380952381
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z']_kernel_2d": [
+        0.8469387755102041,
+        0.47619047619047616
+      ],
+      "['Z']_kernel_3d": [
+        0.8673469387755102,
+        0.7619047619047619
+      ],
+      "['Z']_kernel_4d": [
+        0.8775510204081632,
+        0.8333333333333334
+      ],
+      "['Z']_kernel_5d": [
+        0.9081632653061225,
+        0.6904761904761905
+      ],
+      "['Z']_kernel_6d": [
+        0.9183673469387755,
+        0.7380952380952381
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 25,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z', 'ZZ']_kernel_2d": [
+        0.8061224489795918,
+        0.7142857142857143
+      ],
+      "['Z', 'ZZ']_kernel_3d": [
+        0.8673469387755102,
+        0.7619047619047619
+      ],
+      "['Z', 'ZZ']_kernel_4d": [
+        0.7857142857142857,
+        0.7142857142857143
+      ],
+      "['Z', 'ZZ']_kernel_5d": [
+        0.8367346938775511,
+        0.7142857142857143
+      ],
+      "['Z', 'ZZ']_kernel_6d": [
+        0.9183673469387755,
+        0.7380952380952381
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z",
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "X_rbf_2d": [
+        0.673469387755102,
+        0.5238095238095238
+      ],
+      "X_rbf_3d": [
+        0.8877551020408163,
+        0.8095238095238095
+      ],
+      "X_rbf_4d": [
+        0.9387755102040817,
+        0.8571428571428571
+      ],
+      "X_rbf_5d": [
+        0.9591836734693877,
+        0.8571428571428571
+      ],
+      "X_rbf_6d": [
+        1.0,
+        0.9047619047619048
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "pca",
+      "classical_kernel": "rbf",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 5,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ]
+    }
+  },
+  {
+    "results": {
+      "X_rbf_2d": [
+        0.8469387755102041,
+        0.7142857142857143
+      ],
+      "X_rbf_3d": [
+        0.8877551020408163,
+        0.7857142857142857
+      ],
+      "X_rbf_4d": [
+        0.9183673469387755,
+        0.8333333333333334
+      ],
+      "X_rbf_5d": [
+        0.9081632653061225,
+        0.7857142857142857
+      ],
+      "X_rbf_6d": [
+        0.8979591836734694,
+        0.8095238095238095
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "classical_kernel": "rbf",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ]
+    }
+  },
+  {
+    "results": {
+      "['Y', 'YY']_kernel_2d": [
+        0.6020408163265306,
+        0.47619047619047616
+      ],
+      "['Y', 'YY']_kernel_3d": [
+        0.6428571428571429,
+        0.40476190476190477
+      ],
+      "['Y', 'YY']_kernel_4d": [
+        0.7653061224489796,
+        0.6666666666666666
+      ],
+      "['Y', 'YY']_kernel_5d": [
+        0.8367346938775511,
+        0.6190476190476191
+      ],
+      "['Y', 'YY']_kernel_6d": [
+        0.9591836734693877,
+        0.5238095238095238
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 45,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Y",
+        "YY"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Y', 'YY']_kernel_2d": [
+        0.6836734693877551,
+        0.5952380952380952
+      ],
+      "['Y', 'YY']_kernel_3d": [
+        0.7448979591836735,
+        0.6666666666666666
+      ],
+      "['Y', 'YY']_kernel_4d": [
+        0.8571428571428571,
+        0.6190476190476191
+      ],
+      "['Y', 'YY']_kernel_5d": [
+        0.9285714285714286,
+        0.7142857142857143
+      ],
+      "['Y', 'YY']_kernel_6d": [
+        0.8877551020408163,
+        0.7380952380952381
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 5,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Y",
+        "YY"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "['Z', 'ZZ']_kernel_2d": [
+        0.8673469387755102,
+        0.5476190476190477
+      ],
+      "['Z', 'ZZ']_kernel_3d": [
+        0.8877551020408163,
+        0.7142857142857143
+      ],
+      "['Z', 'ZZ']_kernel_4d": [
+        0.9081632653061225,
+        0.5
+      ],
+      "['Z', 'ZZ']_kernel_5d": [
+        0.9591836734693877,
+        0.6190476190476191
+      ],
+      "['Z', 'ZZ']_kernel_6d": [
+        0.9693877551020408,
+        0.6666666666666666
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 25,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Z",
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "X_rbf_2d": [
+        0.8775510204081632,
+        0.5
+      ],
+      "X_rbf_3d": [
+        0.9285714285714286,
+        0.8333333333333334
+      ],
+      "X_rbf_4d": [
+        0.8775510204081632,
+        0.7857142857142857
+      ],
+      "X_rbf_5d": [
+        0.9387755102040817,
+        0.8095238095238095
+      ],
+      "X_rbf_6d": [
+        0.9591836734693877,
+        0.8095238095238095
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "classical_kernel": "rbf",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 45,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ]
+    }
+  },
+  {
+    "results": {
+      "X_rbf_2d": [
+        0.8877551020408163,
+        0.6190476190476191
+      ],
+      "X_rbf_3d": [
+        0.8877551020408163,
+        0.8095238095238095
+      ],
+      "X_rbf_4d": [
+        0.9081632653061225,
+        0.7857142857142857
+      ],
+      "X_rbf_5d": [
+        0.9387755102040817,
+        0.8333333333333334
+      ],
+      "X_rbf_6d": [
+        0.9591836734693877,
+        0.9047619047619048
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "classical_kernel": "rbf",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 35,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ]
+    }
+  },
+  {
+    "results": {
+      "['Y', 'YY']_kernel_2d": [
+        0.5612244897959183,
+        0.5476190476190477
+      ],
+      "['Y', 'YY']_kernel_3d": [
+        0.5816326530612245,
+        0.5476190476190477
+      ],
+      "['Y', 'YY']_kernel_4d": [
+        0.7551020408163265,
+        0.4523809523809524
+      ],
+      "['Y', 'YY']_kernel_5d": [
+        0.8571428571428571,
+        0.5952380952380952
+      ],
+      "['Y', 'YY']_kernel_6d": [
+        0.9183673469387755,
+        0.42857142857142855
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 35,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "Y",
+        "YY"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  },
+  {
+    "results": {
+      "X_rbf_2d": [
+        0.673469387755102,
+        0.5238095238095238
+      ],
+      "X_rbf_3d": [
+        0.8877551020408163,
+        0.8095238095238095
+      ],
+      "X_rbf_4d": [
+        0.9387755102040817,
+        0.8571428571428571
+      ],
+      "X_rbf_5d": [
+        0.9591836734693877,
+        0.8571428571428571
+      ],
+      "X_rbf_6d": [
+        1.0,
+        0.9047619047619048
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "pca",
+      "classical_kernel": "rbf",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 3,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ]
+    }
+  },
+  {
+    "results": {
+      "['ZZ']_kernel_2d": [
+        0.7857142857142857,
+        0.6190476190476191
+      ],
+      "['ZZ']_kernel_3d": [
+        0.7755102040816326,
+        0.3333333333333333
+      ],
+      "['ZZ']_kernel_4d": [
+        0.8163265306122449,
+        0.5476190476190477
+      ],
+      "['ZZ']_kernel_5d": [
+        0.9183673469387755,
+        0.42857142857142855
+      ],
+      "['ZZ']_kernel_6d": [
+        0.9693877551020408,
+        0.5714285714285714
+      ]
+    },
+    "params": {
+      "filename": "car.csv",
+      "dim_method": "umap",
+      "minmax_val_list": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "n_dimensions": [
+        2,
+        6
+      ],
+      "save_dim_info": true,
+      "tsne_arguments": {
+        "n_iter": 500,
+        "perplexity": 30,
+        "learning_rate": "auto"
+      },
+      "visualise_tsne_umap": false,
+      "umap_arguments": {
+        "n_neighbors": 45,
+        "min_dist": 0.1,
+        "metric": "euclidean"
+      },
+      "post_pca_scale": true,
+      "scalers": [
+        "standard",
+        "minmax"
+      ],
+      "feature_map_str": [
+        "ZZ"
+      ],
+      "fm_arguments": {
+        "reps": 2,
+        "entanglement": "linear"
+      },
+      "save_circuit": false,
+      "sampler_options": {
+        "optimization_level": 3,
+        "resilience_level": 0,
+        "execution": {
+          "shots": 1024,
+          "seed": 27
+        },
+        "simulator": {
+          "precision": "single"
+        }
+      },
+      "fidelity_options": {
+        "shots": 1024,
+        "seed": 27
+      },
+      "simulator": true,
+      "qiskit_api_token": null,
+      "qiskit_channel": "ibm_quantum",
+      "backend_override": null,
+      "min_qubits": 2,
+      "sample_size": null,
+      "classify_original": false
+    }
+  }
+]

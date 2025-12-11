@@ -1,0 +1,55 @@
+{
+    "results": {
+        "X_rbf_2d": [
+            0.7672281776416539,
+            0.7224199288256228
+        ],
+        "X_rbf_3d": [
+            0.8958652373660031,
+            0.9145907473309609
+        ],
+        "X_rbf_4d": [
+            0.9326186830015314,
+            0.9288256227758007
+        ],
+        "X_rbf_5d": [
+            0.9770290964777948,
+            0.9750889679715302
+        ]
+    },
+    "params": {
+        "filename": "mushroom_934.csv",
+        "dim_method": "umap",
+        "classical_kernel": "rbf",
+        "minmax_val_list": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "n_dimensions": [
+            2,
+            5
+        ],
+        "tsne_arguments": {
+            "n_iter": 500,
+            "perplexity": 30,
+            "learning_rate": "auto"
+        },
+        "visualise_tsne_umap": false,
+        "umap_arguments": {
+            "n_neighbors": 3,
+            "min_dist": 0.1,
+            "metric": "euclidean"
+        },
+        "post_pca_scale": true,
+        "scalers": [
+            "standard",
+            "minmax"
+        ]
+    }
+}

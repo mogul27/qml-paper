@@ -1,0 +1,63 @@
+{
+    "results": {
+        "X_rbf_2d": [
+            0.8317757009345794,
+            0.8085106382978723
+        ],
+        "X_rbf_3d": [
+            0.9252336448598131,
+            0.8723404255319149
+        ],
+        "X_rbf_4d": [
+            0.9719626168224299,
+            0.9574468085106383
+        ],
+        "X_rbf_5d": [
+            0.9813084112149533,
+            0.9574468085106383
+        ],
+        "X_rbf_6d": [
+            0.9719626168224299,
+            0.9574468085106383
+        ],
+        "X_rbf_7d": [
+            0.9906542056074766,
+            0.9148936170212766
+        ]
+    },
+    "params": {
+        "filename": "mushroom.csv",
+        "dim_method": "pca",
+        "classical_kernel": "rbf",
+        "minmax_val_list": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "n_dimensions": [
+            2,
+            7
+        ],
+        "tsne_arguments": {
+            "n_iter": 500,
+            "perplexity": 30,
+            "learning_rate": "auto"
+        },
+        "visualise_tsne_umap": false,
+        "umap_arguments": {
+            "n_neighbors": 3,
+            "min_dist": 0.1,
+            "metric": "euclidean"
+        },
+        "post_pca_scale": true,
+        "scalers": [
+            "standard",
+            "minmax"
+        ]
+    }
+}

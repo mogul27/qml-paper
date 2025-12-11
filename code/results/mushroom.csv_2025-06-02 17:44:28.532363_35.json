@@ -1,0 +1,94 @@
+{
+    "results": {
+        "['Y', 'YY']_kernel_2d": [
+            0.5887850467289719,
+            0.7872340425531915
+        ],
+        "['Y', 'YY']_kernel_3d": [
+            0.897196261682243,
+            0.7021276595744681
+        ],
+        "['Y', 'YY']_kernel_4d": [
+            0.8691588785046729,
+            0.6595744680851063
+        ],
+        "['Y', 'YY']_kernel_5d": [
+            0.9813084112149533,
+            0.723404255319149
+        ],
+        "['Y', 'YY']_kernel_6d": [
+            0.9813084112149533,
+            0.8085106382978723
+        ],
+        "['Y', 'YY']_kernel_7d": [
+            0.9719626168224299,
+            0.723404255319149
+        ]
+    },
+    "params": {
+        "filename": "mushroom.csv",
+        "dim_method": "umap",
+        "minmax_val_list": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "n_dimensions": [
+            2,
+            7
+        ],
+        "save_dim_info": true,
+        "tsne_arguments": {
+            "n_iter": 500,
+            "perplexity": 30,
+            "learning_rate": "auto"
+        },
+        "visualise_tsne_umap": false,
+        "umap_arguments": {
+            "n_neighbors": 35,
+            "min_dist": 0.1,
+            "metric": "euclidean"
+        },
+        "post_pca_scale": true,
+        "scalers": [
+            "standard",
+            "minmax"
+        ],
+        "feature_map_str": [
+            "Y",
+            "YY"
+        ],
+        "fm_arguments": {
+            "reps": 2,
+            "entanglement": "linear"
+        },
+        "save_circuit": false,
+        "sampler_options": {
+            "optimization_level": 3,
+            "resilience_level": 0,
+            "execution": {
+                "shots": 1024,
+                "seed": 27
+            },
+            "simulator": {
+                "precision": "single"
+            }
+        },
+        "fidelity_options": {
+            "shots": 1024,
+            "seed": 27
+        },
+        "simulator": true,
+        "qiskit_api_token": null,
+        "qiskit_channel": "ibm_quantum",
+        "backend_override": null,
+        "min_qubits": 2,
+        "sample_size": null,
+        "classify_original": false
+    }
+}

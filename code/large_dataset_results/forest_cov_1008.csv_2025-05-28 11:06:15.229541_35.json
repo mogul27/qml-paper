@@ -1,0 +1,86 @@
+{
+    "results": {
+        "['Z', 'ZZ']_kernel_2d": [
+            0.6553191489361702,
+            0.6567656765676567
+        ],
+        "['Z', 'ZZ']_kernel_3d": [
+            0.6794326241134752,
+            0.6468646864686468
+        ],
+        "['Z', 'ZZ']_kernel_4d": [
+            0.6907801418439716,
+            0.6600660066006601
+        ],
+        "['Z', 'ZZ']_kernel_5d": [
+            0.7063829787234043,
+            0.6831683168316832
+        ]
+    },
+    "params": {
+        "filename": "forest_cov_1008.csv",
+        "dim_method": "umap",
+        "minmax_val_list": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "n_dimensions": [
+            2,
+            5
+        ],
+        "save_dim_info": true,
+        "tsne_arguments": {
+            "n_iter": 500,
+            "perplexity": 30,
+            "learning_rate": "auto"
+        },
+        "visualise_tsne_umap": false,
+        "umap_arguments": {
+            "n_neighbors": 35,
+            "min_dist": 0.1,
+            "metric": "euclidean"
+        },
+        "post_pca_scale": true,
+        "scalers": [
+            "standard",
+            "minmax"
+        ],
+        "feature_map_str": [
+            "Z",
+            "ZZ"
+        ],
+        "fm_arguments": {
+            "reps": 2,
+            "entanglement": "linear"
+        },
+        "save_circuit": false,
+        "sampler_options": {
+            "optimization_level": 3,
+            "resilience_level": 0,
+            "execution": {
+                "shots": 1024,
+                "seed": 27
+            },
+            "simulator": {
+                "precision": "single"
+            }
+        },
+        "fidelity_options": {
+            "shots": 1024,
+            "seed": 27
+        },
+        "simulator": true,
+        "qiskit_api_token": null,
+        "qiskit_channel": "ibm_quantum",
+        "backend_override": null,
+        "min_qubits": 2,
+        "sample_size": null,
+        "classify_original": false
+    }
+}

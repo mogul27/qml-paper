@@ -1,0 +1,94 @@
+{
+    "results": {
+        "['Y', 'YY']_kernel_2d": [
+            0.6119402985074627,
+            0.3275862068965517
+        ],
+        "['Y', 'YY']_kernel_3d": [
+            0.6716417910447762,
+            0.6896551724137931
+        ],
+        "['Y', 'YY']_kernel_4d": [
+            0.7985074626865671,
+            0.41379310344827586
+        ],
+        "['Y', 'YY']_kernel_5d": [
+            0.8507462686567164,
+            0.43103448275862066
+        ],
+        "['Y', 'YY']_kernel_6d": [
+            0.8656716417910447,
+            0.46551724137931033
+        ],
+        "['Y', 'YY']_kernel_7d": [
+            0.9626865671641791,
+            0.43103448275862066
+        ]
+    },
+    "params": {
+        "filename": "digits_2.csv",
+        "dim_method": "umap",
+        "minmax_val_list": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "n_dimensions": [
+            2,
+            7
+        ],
+        "save_dim_info": true,
+        "tsne_arguments": {
+            "n_iter": 500,
+            "perplexity": 30,
+            "learning_rate": "auto"
+        },
+        "visualise_tsne_umap": false,
+        "umap_arguments": {
+            "n_neighbors": 45,
+            "min_dist": 0.1,
+            "metric": "euclidean"
+        },
+        "post_pca_scale": true,
+        "scalers": [
+            "standard",
+            "minmax"
+        ],
+        "feature_map_str": [
+            "Y",
+            "YY"
+        ],
+        "fm_arguments": {
+            "reps": 2,
+            "entanglement": "linear"
+        },
+        "save_circuit": false,
+        "sampler_options": {
+            "optimization_level": 3,
+            "resilience_level": 0,
+            "execution": {
+                "shots": 1024,
+                "seed": 27
+            },
+            "simulator": {
+                "precision": "single"
+            }
+        },
+        "fidelity_options": {
+            "shots": 1024,
+            "seed": 27
+        },
+        "simulator": true,
+        "qiskit_api_token": null,
+        "qiskit_channel": "ibm_quantum",
+        "backend_override": null,
+        "min_qubits": 2,
+        "sample_size": null,
+        "classify_original": false
+    }
+}

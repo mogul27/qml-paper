@@ -1,0 +1,93 @@
+{
+    "results": {
+        "['Z']_kernel_2d": [
+            0.7448979591836735,
+            0.6904761904761905
+        ],
+        "['Z']_kernel_3d": [
+            0.7346938775510204,
+            0.5476190476190477
+        ],
+        "['Z']_kernel_4d": [
+            0.7142857142857143,
+            0.6666666666666666
+        ],
+        "['Z']_kernel_5d": [
+            0.7551020408163265,
+            0.6428571428571429
+        ],
+        "['Z']_kernel_6d": [
+            0.826530612244898,
+            0.7380952380952381
+        ],
+        "['Z']_kernel_7d": [
+            0.8367346938775511,
+            0.7619047619047619
+        ]
+    },
+    "params": {
+        "filename": "car.csv",
+        "dim_method": "umap",
+        "minmax_val_list": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "n_dimensions": [
+            2,
+            7
+        ],
+        "save_dim_info": true,
+        "tsne_arguments": {
+            "n_iter": 500,
+            "perplexity": 30,
+            "learning_rate": "auto"
+        },
+        "visualise_tsne_umap": false,
+        "umap_arguments": {
+            "n_neighbors": 3,
+            "min_dist": 0.1,
+            "metric": "euclidean"
+        },
+        "post_pca_scale": true,
+        "scalers": [
+            "standard",
+            "minmax"
+        ],
+        "feature_map_str": [
+            "Z"
+        ],
+        "fm_arguments": {
+            "reps": 2,
+            "entanglement": "linear"
+        },
+        "save_circuit": false,
+        "sampler_options": {
+            "optimization_level": 3,
+            "resilience_level": 0,
+            "execution": {
+                "shots": 1024,
+                "seed": 27
+            },
+            "simulator": {
+                "precision": "single"
+            }
+        },
+        "fidelity_options": {
+            "shots": 1024,
+            "seed": 27
+        },
+        "simulator": true,
+        "qiskit_api_token": null,
+        "qiskit_channel": "ibm_quantum",
+        "backend_override": null,
+        "min_qubits": 2,
+        "sample_size": null,
+        "classify_original": false
+    }
+}

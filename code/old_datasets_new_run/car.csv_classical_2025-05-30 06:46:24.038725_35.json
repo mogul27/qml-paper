@@ -1,0 +1,63 @@
+{
+    "results": {
+        "X_rbf_2d": [
+            0.8877551020408163,
+            0.6190476190476191
+        ],
+        "X_rbf_3d": [
+            0.8877551020408163,
+            0.8095238095238095
+        ],
+        "X_rbf_4d": [
+            0.9081632653061225,
+            0.7857142857142857
+        ],
+        "X_rbf_5d": [
+            0.9387755102040817,
+            0.8333333333333334
+        ],
+        "X_rbf_6d": [
+            0.9591836734693877,
+            0.9047619047619048
+        ],
+        "X_rbf_7d": [
+            0.9387755102040817,
+            0.7857142857142857
+        ]
+    },
+    "params": {
+        "filename": "car.csv",
+        "dim_method": "umap",
+        "classical_kernel": "rbf",
+        "minmax_val_list": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "n_dimensions": [
+            2,
+            7
+        ],
+        "tsne_arguments": {
+            "n_iter": 500,
+            "perplexity": 30,
+            "learning_rate": "auto"
+        },
+        "visualise_tsne_umap": false,
+        "umap_arguments": {
+            "n_neighbors": 35,
+            "min_dist": 0.1,
+            "metric": "euclidean"
+        },
+        "post_pca_scale": true,
+        "scalers": [
+            "standard",
+            "minmax"
+        ]
+    }
+}
