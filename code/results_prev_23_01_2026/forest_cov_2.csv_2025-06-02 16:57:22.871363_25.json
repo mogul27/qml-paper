@@ -1,0 +1,94 @@
+{
+    "results": {
+        "['Z', 'ZZ']_kernel_2d": [
+            0.6442953020134228,
+            0.47692307692307695
+        ],
+        "['Z', 'ZZ']_kernel_3d": [
+            0.7181208053691275,
+            0.5076923076923077
+        ],
+        "['Z', 'ZZ']_kernel_4d": [
+            0.738255033557047,
+            0.5538461538461539
+        ],
+        "['Z', 'ZZ']_kernel_5d": [
+            0.7651006711409396,
+            0.676923076923077
+        ],
+        "['Z', 'ZZ']_kernel_6d": [
+            0.7718120805369127,
+            0.6153846153846154
+        ],
+        "['Z', 'ZZ']_kernel_7d": [
+            0.8322147651006712,
+            0.7538461538461538
+        ]
+    },
+    "params": {
+        "filename": "forest_cov_2.csv",
+        "dim_method": "umap",
+        "minmax_val_list": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "n_dimensions": [
+            2,
+            7
+        ],
+        "save_dim_info": true,
+        "tsne_arguments": {
+            "n_iter": 500,
+            "perplexity": 30,
+            "learning_rate": "auto"
+        },
+        "visualise_tsne_umap": false,
+        "umap_arguments": {
+            "n_neighbors": 25,
+            "min_dist": 0.1,
+            "metric": "euclidean"
+        },
+        "post_pca_scale": true,
+        "scalers": [
+            "standard",
+            "minmax"
+        ],
+        "feature_map_str": [
+            "Z",
+            "ZZ"
+        ],
+        "fm_arguments": {
+            "reps": 2,
+            "entanglement": "linear"
+        },
+        "save_circuit": false,
+        "sampler_options": {
+            "optimization_level": 3,
+            "resilience_level": 0,
+            "execution": {
+                "shots": 1024,
+                "seed": 27
+            },
+            "simulator": {
+                "precision": "single"
+            }
+        },
+        "fidelity_options": {
+            "shots": 1024,
+            "seed": 27
+        },
+        "simulator": true,
+        "qiskit_api_token": null,
+        "qiskit_channel": "ibm_quantum",
+        "backend_override": null,
+        "min_qubits": 2,
+        "sample_size": null,
+        "classify_original": false
+    }
+}

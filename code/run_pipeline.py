@@ -169,10 +169,10 @@ if __name__=="__main__":
 
     # Set loop over entanglement method
     # entanglement_methods = ["linear", "full", "sca", "circular"]
-    neighbours = [3]
-    #neighbours = [3, 5, 10, 25, 35, 45]
+    #neighbours = [3]
+    neighbours = [3, 5, 10, 25, 35, 45]
     # Set loop over datasets
-    datasets = ['digits_2.csv', 'mushroom.csv', 'forest_cov_2.csv', ]
+    datasets = ['digits_2.csv', 'mushroom.csv', 'forest_cov_2.csv']
     #datasets = ['digits_2.csv']
     #datasets = ['car.csv']
     #datasets = ["digits_2_350.csv", "mushroom_934.csv", "forest_cov_1008.csv", "complex.csv", "car_766.csv",]
@@ -187,7 +187,7 @@ if __name__=="__main__":
         # Set variables and run pipeline
             filename = dataset
             classical_kernel='rbf'
-            dim_method='pca'
+            dim_method='umap'
             minmax_val_list = [(0, 1), (0, 1)]
             n_dimensions = (2, 7)
             tsne_arguments = {"n_iter": 500, "perplexity": 30,
@@ -216,7 +216,7 @@ if __name__=="__main__":
 
             # Save reults and parameters under dataset name and timestamp identifier
             timestamp = datetime.datetime.now()
-            save_path = "results/{}_classical_{}_pca.json".format(filename, timestamp)
+            save_path = "results/{}_classical_{}_{}.json".format(filename, timestamp, neighbour)
             saved_location = write_dict(save_path, results_and_params)
 
             print("Results and parameters saved to {}".format(saved_location))
